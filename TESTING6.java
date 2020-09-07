@@ -1,0 +1,10 @@
+//EXAMPLE ON CALLING THE METHODS FROM ANOTHER PROGRAME
+public class TESTING6											//MAIN CLASS
+{
+	public static void main(String arg[])
+	{
+		STUDENT s1=new STUDENT();								//CREATING AN OBJECT WITH REFERENCE
+		s1.setData(01,"PRASANTH","CORE JAVA","SK","11 TO 1");	//CALLING METHODS FROM ANOTHER CLASS USING OBJECT
+		s1.showData();
+	}
+}
